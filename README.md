@@ -14,20 +14,16 @@ https://www.coolapk.com/feed/38579891?shareKey=NGI3ZGZlZTM4MDBjNjMwMzdlM2M~&shar
 
 模板内容如下：
 
-{{todayDate.DATA}}
 
-{{HelloDate.DATA}} 现在是北京时间:{{UpdateTimeDate.DATA}}, {{WeekDate.Date}},当前温度{{TemDate.DATA}}， {{WearchDate.DATA}}
+{{date.DATA}} 
 
-城市: {{CityDate.DATA}}
+地区：{{region.DATA}} 
 
-今天天气：{{WeaDate.DATA}}
+天气：{{weather.DATA}} 
 
-今天温度：{{TemDate.DATA}}
+气温：{{temp.DATA}} 
+
 风向：{{wind_dir.DATA}} 
-
-{{yiQingDate.DATA}}
-
-{{yiYanDate.DATA}}
 
 天气key生成教程
 ![image](https://raw.githubusercontent.com/limoest/daily_reminder/main/%E5%92%8C%E9%A3%8E%E5%A4%A9%E6%B0%94key%E7%94%9F%E6%88%90.png)
