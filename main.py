@@ -118,7 +118,7 @@ def get_ciba():
             }
         }
     }
-  response = post(url, headers=headers, json=data).json()
+    response = post(url, headers=headers, json=data).json()
     if response["errcode"] == 40037:
         print("推送消息失败，请检查模板id是否正确")
     elif response["errcode"] == 40036:
